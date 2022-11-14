@@ -11,64 +11,60 @@ const Services = () => {
             <div className="container services__container">
                 <article className="service">
                     <div className="service__head">
-                        <h3> Web Testing Automation </h3>
+                        <h3> Manual Testing Skills </h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Proficiency in Analyzing business requirements, Functional requirements, Use cases. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Develop solid test Documentation including test plans, test suits, test cases, test metrics. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Experience in documenting and maintaining reports and helping with software release process. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Extensive usage of Bug Tracking and Version Control tools such as Jira, Asana, Yougile, Git, Bitbucket.</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Well organized and detail-oriented. Keep track of multiple conflicting priorities.</p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p>Pragmatic. Enjoy working as a part of a result-driven team. </p>
                         </li>
                     </ul>
                 </article>
                 <article className="service">
                     <div className="service__head">
-                        <h3> Mobile Testing Automation </h3>
+                        <h3> Frontend Testing Automation </h3>
                     </div>
                     <ul className="service__list">
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Proficiency in Test driven development for Functional and Integration testing using Python Selenium framework. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Designing, development and enhancing Automated test scripts for User Interface Testing Automation using Cypress, Protractor. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Automation of Mobile Applications testing using Python Appium framework, Appium Server, Appium Inspector </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </li>
+                            <p> Building Automation test cases in Virtual Environment using GitHub Actions tools, Merging production ready tests to Staging repository of the Product </p>
+                        </li>      
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </li>
+                            <p> Well versed with design and development of presentation layer for web applications using technologies like HTML, CSS and JavaScript, Bootstrap </p>
+                        </li>                  
                     </ul>
                 </article>
                 <article className="service">
@@ -78,28 +74,20 @@ const Services = () => {
                     <ul className="service__list">
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Validating each API endpoint using Python Requests framework, POSTMAN, Integrated with developers to automate API testing. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Performing Load, Stress testing using such tools as JMeter, Gatling, K6 framework. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                            <p> Familiar with concepts and technologies such as TCP/IP protocols, routers, OSI layers. </p>
                         </li>
                         <li>
                             <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </li>
-                        <li>
-                            <BiCheck className='service__list-icon' />
-                            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
-                        </li>
+                            <p> Experience on continuous integration and deployment using Jenkins, Docker </p>
+                        </li>                        
                     </ul>
                 </article>
             </div>

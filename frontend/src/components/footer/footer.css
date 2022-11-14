@@ -4,6 +4,8 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    background-image: url(../../assets/img/contact-img.svg);
+    background-repeat: no-repeat;
 }
 
 footer a {
@@ -45,6 +47,10 @@ footer a {
 
 /* ==========================   MEDIA QUERIES (MEDIUM DEVICE) ================== */
 @media screen and (max-width: 600px){
+    footer {
+        background-image: url(../../assets/img/contact-img.svg);
+        background-size:contain;
+    }
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;

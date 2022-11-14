@@ -1,42 +1,31 @@
 import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/img/project-img3.png';
+import Player from '../../assets/img/teams.jpg';
+import Evernow from '../../assets/img/evernow.png';
+import Cincopa from '../../assets/img/cincopa.png';
 
 const data = [
     {
         id: 1,
-        image: IMG1,
-        title: 'Cripto Currency Dashboard and Financial Visualization',
-        github: "https://github.com",
-        demo: "https://www.youtube.com/watch?v=G-Cr00UYokU&t=8476s"
+        image: Player,
+        title: 'Website for soccer players, agents and fans',
+        github: "https://github.com/AtticusFinch1/VVPPlayers",
+        demo: "https://foothunters.com/"
     },
     {
         id: 2,
-        image: IMG1,
-        title: 'Charts templates & infographics in Figma',
+        image: Evernow,
+        title: 'Evernow - парная медитация',
         github: "https://github.com",
-        demo: "https://www.youtube.com/watch?v=G-Cr00UYokU&t=8476s"
+        demo: "https://play.google.com/store/apps/details?id=com.everbuddy&gl=US"
     },
     {
         id: 3,
-        image: IMG1,
-        title: 'Charts templates & infographics in Figma',
+        image: Cincopa,
+        title: 'New media editing & management features – Cincopa',
         github: "https://github.com",
-        demo: "https://www.youtube.com/watch?v=G-Cr00UYokU&t=8476s"
-    },
-    {
-        id: 4,
-        image: IMG1,
-        title: 'Maintaining tasks and tracking progress',
-        github: "https://github.com",
-        demo: "https://www.youtube.com/watch?v=G-Cr00UYokU&t=8476s"
-    },
-    {
-        id: 5,
-        image: IMG1,
-        title: 'Figma dashboard UI kit for data design web apps',
-        github: "https://github.com",
-        demo: "https://www.youtube.com/watch?v=G-Cr00UYokU&t=8476s"
+        demo: "https://www.cincopa.com/"
     },
 ]
 
@@ -50,7 +39,7 @@ const Portfolio = () => {
                     return (
                         <article key={id} className='portfolio__item'>
                         <div className="portfolio__item-image">
-                            <img src={image} alt={title} />
+                            <img src={image} alt={title} style={{ height: 300 }}/>
                         </div>
                         <h3> {title}</h3>
                         <div className="portfolio__item-cta">
