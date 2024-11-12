@@ -19,14 +19,7 @@ const data = [
         title: 'Evernow - парная медитация',
         github: "https://github.com",
         demo: "https://play.google.com/store/apps/details?id=com.everbuddy&gl=US"
-    },
-    {
-        id: 3,
-        image: Cincopa,
-        title: 'New media editing & management features – Cincopa',
-        github: "https://github.com",
-        demo: "https://www.cincopa.com/"
-    },
+    }
 ]
 
 const Portfolio = () => {
